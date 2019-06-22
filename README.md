@@ -64,7 +64,7 @@ Unfortunately, pruning results are somewhat deceiving, at least on CIFAR-10 on a
 We do not do better than uniform pruning and we actually do worse than finiding new architectures with a grid search.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/NatGr/NetAdapt/master/pruning_comparison.png">
+  <img width="50%" src="https://raw.githubusercontent.com/NatGr/NetAdapt/master/pruning_comparison.png">
 </div>
 
 More details on this can be found in [my master thesis report](https://github.com/NatGr/Master_Thesis/blob/master/master_thesis__report.pdf), Sections 4.8 and 4.6.
