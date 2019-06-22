@@ -63,6 +63,8 @@ After pruning, we save the number of channels pruned per layers that can be used
 Unfortunately, pruning results are somewhat deceiving, at least on CIFAR-10 on a Raspberry PI 3B using a WideResNet as a base architecture. 
 We do not do better than uniform pruning and we actually do worse than finiding new architectures with a grid search.
 
-![pruning_comparison.png]
+<div align="center">
+  <img src="https://raw.githubusercontent.com/NatGr/NetAdapt/master/pruning_comparison.png">
+</div>
 
 More details on this can be found in [my master thesis report](https://github.com/NatGr/Master_Thesis/blob/master/master_thesis__report.pdf), Sections 4.8 and 4.6.
